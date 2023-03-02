@@ -1,0 +1,120 @@
+.chatWrapper {
+    width: 800px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 14px;
+    height: 900px !important;
+    padding: 0px 20px;
+}
+
+#chatForm {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0;
+    position: fixed;
+    width: 39%;
+    bottom: 0;
+}
+
+#chatInput {
+    padding: 10px;
+    width: 90%;
+    border-radius: 14px 0px 0px 14px;
+    border: 1px solid grey;
+}
+
+#chatInput:focus {
+    outline: none;
+}
+
+#btn {
+    padding: 5px;
+    border-radius: 0px 14px 14px 0px;
+    border: 1px solid grey;
+    width: 10%;
+}
+
+#btn i {
+    font-size: 32px;
+}
+
+
+
+/* Register css */
+.registerWrapper {
+    max-width: 600px;
+    width: 100%;
+    display: flex;  
+    margin:150px auto;
+    padding: 30px 20px;
+    border: 2px solid grey;
+    border-radius: 14px;
+
+}
+.registerForm{
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.registerForm input{
+    padding: 14px;
+    border: 1px solid grey;
+    border-radius: 14px;
+    margin: 10px 0px;
+}
+.registerForm input:focus{
+    outline: none;
+}
+.registerForm button{
+    padding: 14px;
+    border-radius: 14px;
+    border: 1px solid grey;
+}
+
+/* Register css */
+/* Login css */
+
+
+.loginWrap{
+        max-width: 600px;
+        width: 100%;
+        display: flex;
+        margin:150px auto;
+        padding: 30px 20px;
+        border: 2px solid grey;
+        border-radius: 14px;
+}
+.formLogin{
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+}
+.formLogin input{
+        padding: 14px;
+        border: 1px solid grey;
+        border-radius: 14px;
+        margin: 10px 0px;
+}
+.formLogin button {
+    padding: 14px;
+    border-radius: 14px;
+    border: 1px solid grey;
+}
+/* Login css */
+
+
+
+
+.chat1{
+    background-color: red;
+}
+.chat2{
+    background-color: blue;
+}
+
+.chat{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 14px  14px 0px 14px;
+    margin: 5px;
+}
